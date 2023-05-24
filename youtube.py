@@ -15,8 +15,6 @@ credentials = flow.run_local_server(port=8080, prompt='consent')
 # Get the access token
 youtube = googleapiclient.discovery.build('youtube', 'v3', credentials=credentials)
 
-
-
 # Folder paths
 folder_paths = ["folder_example1", "folder_example2"]
 
